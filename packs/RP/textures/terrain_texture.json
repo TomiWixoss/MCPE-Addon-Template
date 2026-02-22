@@ -1,0 +1,11 @@
+{
+	"resource_pack_name": "My First Addon",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"custom_block": {
+			"textures": "textures/blocks/custom_block"
+		}
+	}
+}

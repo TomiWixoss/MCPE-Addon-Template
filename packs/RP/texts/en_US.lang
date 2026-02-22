@@ -7,3 +7,7 @@ item.custom:item.name=Custom Item
 item.custom:tool.name=Custom Tool
 item.custom:weapon.name=Custom Weapon
 item.custom:food.name=Custom Food
+
+
+## Blocks
+tile.custom:block.name=Custom Block
