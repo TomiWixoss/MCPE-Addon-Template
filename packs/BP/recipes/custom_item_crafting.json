@@ -20,7 +20,13 @@
 		},
 		"result": {
 			"item": "custom:item",
+			"data": 0,
 			"count": 4
-		}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:diamond"
+			}
+		]
 	}
 }

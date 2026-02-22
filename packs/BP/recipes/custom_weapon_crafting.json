@@ -19,8 +19,12 @@
 			}
 		},
 		"result": {
-			"item": "custom:weapon",
-			"count": 1
-		}
+			"item": "custom:weapon"
+		},
+		"unlock": [
+			{
+				"item": "custom:item"
+			}
+		]
 	}
 }

@@ -18,8 +18,13 @@
 			},
 			"minecraft:hand_equipped": true,
 			"minecraft:durability": {
-				"max_durability": 300
+				"max_durability": 300,
+				"damage_chance": {
+					"min": 100,
+					"max": 100
+				}
 			},
+			"tag:minecraft:is_sword": {},
 			"minecraft:damage": {
 				"value": 8
 			},

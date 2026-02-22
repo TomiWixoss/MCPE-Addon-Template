@@ -19,8 +19,12 @@
 			}
 		},
 		"result": {
-			"item": "custom:tool",
-			"count": 1
-		}
+			"item": "custom:tool"
+		},
+		"unlock": [
+			{
+				"item": "custom:item"
+			}
+		]
 	}
 }

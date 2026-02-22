@@ -19,6 +19,11 @@
 		"result": {
 			"item": "custom:food",
 			"count": 2
-		}
+		},
+		"unlock": [
+			{
+				"item": "custom:item"
+			}
+		]
 	}
 }
