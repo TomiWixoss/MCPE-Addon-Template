@@ -1,0 +1,80 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:spider",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "skeleton",
+        "invisible": "spider_invisible"
+      },
+      "textures": {
+        "default": "textures/entity/spider/spider",
+        "default2": "textures/entity/spider/spider2",
+        "default3": "textures/entity/spider/spider3",
+        "default4": "textures/entity/spider/spider4",
+        "default5": "textures/entity/spider/spider5",
+        "default6": "textures/entity/spider/spider6",
+        "default7": "textures/entity/spider/spider7",
+        "default8": "textures/entity/spider/spider8",
+        "default9": "textures/entity/spider/spider9",
+        "default10": "textures/entity/spider/spider10",
+        "default11": "textures/entity/spider/spider11",
+        "default12": "textures/entity/spider/spider12",
+        "default13": "textures/entity/spider/spider13",
+        "default14": "textures/entity/spider/spider14",
+        "default15": "textures/entity/spider/spider15",
+        "default16": "textures/entity/spider/spider16",
+        "default17": "textures/entity/spider/spider17",
+        "default18": "textures/entity/spider/spider18",
+        "default19": "textures/entity/spider/spider19",
+        "default20": "textures/entity/spider/spider20",
+        "default21": "textures/entity/spider/spider21",
+        "default22": "textures/entity/spider/spider22",
+        "default23": "textures/entity/spider/spider23",
+        "default24": "textures/entity/spider/spider24",
+        "default25": "textures/entity/spider/spider25",
+        "default26": "textures/entity/spider/spider26",
+        "default27": "textures/entity/spider/spider27",
+        "default28": "textures/entity/spider/spider28",
+        "default29": "textures/entity/spider/spider29",
+        "default30": "textures/entity/spider/spider30",
+        "default31": "textures/entity/spider/spider31",
+        "default32": "textures/entity/spider/spider32",
+        "default33": "textures/entity/spider/spider33",
+        "default34": "textures/entity/spider/spider34",
+        "default35": "textures/entity/spider/spider35",
+        "default36": "textures/entity/spider/spider36",
+        "default37": "textures/entity/spider/spider37",
+        "default38": "textures/entity/spider/spider38",
+        "default39": "textures/entity/spider/spider39"
+      },
+      "geometry": {
+        "default": "geometry.spider.v1.8",
+        "default26": "geometry.spider26.v1.8",
+        "default37": "geometry.spider37.v1.8"
+      },
+      "animations": {
+        "default_leg_pose": "animation.spider.default_leg_pose",
+        "look_at_target": "animation.spider.look_at_target",
+        "walk": "animation.spider.walk"
+      },
+      "animation_controllers": [
+        {
+          "move": "controller.animation.spider.move"
+        }
+      ],
+      "render_controllers": [
+        "controller.render.spider"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_spider"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.Xvar = (variable.Xvar ?? Math.random(0,999));"
+        ]
+      }
+    }
+  }
+}

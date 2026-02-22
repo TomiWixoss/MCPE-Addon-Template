@@ -1,0 +1,118 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:bee",
+      "materials": {
+        "default": "bee"
+      },
+      "textures": {
+        "default": "textures/entity/bee/bee",
+        "default2": "textures/entity/bee/bee2",
+        "default3": "textures/entity/bee/bee3",
+        "default4": "textures/entity/bee/bee4",
+        "default5": "textures/entity/bee/bee5",
+        "default6": "textures/entity/bee/bee6",
+        "default7": "textures/entity/bee/bee7",
+        "default8": "textures/entity/bee/bee8",
+        "default9": "textures/entity/bee/bee9",
+        "default10": "textures/entity/bee/bee10",
+        "default11": "textures/entity/bee/bee11",
+        "angry": "textures/entity/bee/bee_angry",
+        "angry2": "textures/entity/bee/bee_angry2",
+        "angry3": "textures/entity/bee/bee_angry3",
+        "angry4": "textures/entity/bee/bee_angry4",
+        "angry5": "textures/entity/bee/bee_angry5",
+        "angry6": "textures/entity/bee/bee_angry6",
+        "angry7": "textures/entity/bee/bee_angry7",
+        "angry8": "textures/entity/bee/bee_angry8",
+        "angry9": "textures/entity/bee/bee_angry9",
+        "angry10": "textures/entity/bee/bee_angry10",
+        "angry11": "textures/entity/bee/bee_angry11",
+        "nectar": "textures/entity/bee/bee_nectar",
+        "nectar2": "textures/entity/bee/bee_nectar2",
+        "nectar3": "textures/entity/bee/bee_nectar3",
+        "nectar4": "textures/entity/bee/bee_nectar4",
+        "nectar5": "textures/entity/bee/bee_nectar5",
+        "nectar6": "textures/entity/bee/bee_nectar6",
+        "nectar7": "textures/entity/bee/bee_nectar7",
+        "nectar8": "textures/entity/bee/bee_nectar8",
+        "nectar9": "textures/entity/bee/bee_nectar9",
+        "nectar10": "textures/entity/bee/bee_nectar10",
+        "nectar11": "textures/entity/bee/bee_nectar11",
+        "angry_nectar": "textures/entity/bee/bee_angry_nectar",
+        "angry_nectar2": "textures/entity/bee/bee_angry_nectar2",
+        "angry_nectar3": "textures/entity/bee/bee_angry_nectar3",
+        "angry_nectar4": "textures/entity/bee/bee_angry_nectar4",
+        "angry_nectar5": "textures/entity/bee/bee_angry_nectar5",
+        "angry_nectar6": "textures/entity/bee/bee_angry_nectar6",
+        "angry_nectar7": "textures/entity/bee/bee_angry_nectar7",
+        "angry_nectar8": "textures/entity/bee/bee_angry_nectar8",
+        "angry_nectar9": "textures/entity/bee/bee_angry_nectar9",
+        "angry_nectar10": "textures/entity/bee/bee_angry_nectar10",
+        "angry_nectar11": "textures/entity/bee/bee_angry_nectar11"
+      },
+      "geometry": {
+        "default": "geometry.bee"
+      },
+      "animations": {
+        "flying": "animation.bee.flying",
+        "drip": "controller.animation.bee.drip",
+        "controller_bee_sting": "controller.animation.bee.sting",
+        "bee_sting": "animation.bee.sting",
+        "bee_no_stinger": "animation.bee.no_stinger",
+        "bee_fly_bobbing": "animation.bee.fly.bobbing",
+        "bee_root_controller": "controller.animation.bee.root"
+      },
+      "particle_effects": {
+        "nectar_dripping": "minecraft:nectar_drip_particle"
+      },
+      "scripts": {
+        "animate": [
+          "bee_root_controller",
+          {
+            "bee_no_stinger": "query.mark_variant == 1"
+          }
+        ]
+      },
+      "render_controllers": [
+        {
+        "controller.render.bee": "query.get_name != 'Glare' && query.get_name != 'Bloom' && query.get_name != 'Monsoon' && query.get_name != 'Scowl' && query.get_name != 'Chill' && query.get_name != 'Frostle' && query.get_name != 'Scare' && query.get_name != 'Flare' && query.get_name != 'Voiding' && query.get_name != 'Festive Glare'"
+        },
+        {
+        "controller.render.glare": "query.get_name == 'Glare'"
+        },
+        {
+        "controller.render.bloom": "query.get_name == 'Bloom'"
+        },
+        {
+        "controller.render.monsoon": "query.get_name == 'Monsoon'"
+        },
+        {
+        "controller.render.scowl": "query.get_name == 'Scowl'"
+        },
+        {
+        "controller.render.chill": "query.get_name == 'Chill'"
+        },
+        {
+        "controller.render.frostle": "query.get_name == 'Frostle'"
+        },
+        {
+        "controller.render.scare": "query.get_name == 'Scare'"
+        },
+        {
+        "controller.render.flare": "query.get_name == 'Flare'"
+        },
+        {
+        "controller.render.voiding": "query.get_name == 'Voiding'"
+        },
+        {
+        "controller.render.festive_glare": "query.get_name == 'Festive Glare'"
+        }
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_bee"
+      }
+    }
+  }
+}

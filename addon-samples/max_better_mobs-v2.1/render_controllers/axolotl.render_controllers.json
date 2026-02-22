@@ -1,0 +1,56 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.axolotl": {
+      "arrays": {
+        "textures": {
+          "Array.Xskins": [
+            "Texture.lucy", 
+            "Texture.cyan", 
+            "Texture.gold", 
+            "Texture.wild", 
+            "Texture.blue",
+            "Texture.default2",
+            "Texture.default3",
+            "Texture.default4",
+            "Texture.default5",
+            "Texture.default6",
+            "Texture.default7",
+            "Texture.default8",
+            "Texture.default9",
+            "Texture.default10",
+            "Texture.default11",
+            "Texture.default36",
+            "Texture.default37",
+            "Texture.default38",
+            "Texture.default39",
+            "Texture.default40",
+            "Texture.default41",
+            "Texture.default42",
+            "Texture.default43",
+            "Texture.default44",
+            "Texture.default45",
+            "Texture.default46",
+            "Texture.default47",
+            "Texture.default48",
+            "Texture.default49",
+            "Texture.default50",
+            "Texture.default51",
+            "Texture.default52",
+            "Texture.default53",
+            "Texture.default54"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [
+        { "*": "Material.default" },
+        { "*arm": "Material.limbs" },
+        { "*leg": "Material.limbs" }
+      ],
+        "textures": [
+          "query.get_name == 'Amethyst' ? Texture.default12 : query.get_name == 'Diamond' ? Texture.default13 : query.get_name == 'Emerald' ? Texture.default14 : query.get_name == 'Gold' ? Texture.default15 : query.get_name == 'Lapis' ? Texture.default16 : query.get_name == 'Ancient Debris' ? Texture.default17 : query.get_name == 'Redstone' ? Texture.default18 : query.get_name == 'Mudpuppy' ? Texture.default19 : query.get_name == 'Light Mudpuppy' ? Texture.default20 : query.get_name == 'Red Mudpuppy' ? Texture.default21 : query.get_name == 'Amphiuma' ? Texture.default22 : query.get_name == 'Black Amphiuma' ? Texture.default23 : query.get_name == 'Blue Amphiuma' ? Texture.default24 : query.get_name == 'Black Salamander' ? Texture.default25 : query.get_name == 'Marbled Salamander' ? Texture.default26 : query.get_name == 'Fire Salamander' ? Texture.default27 : query.get_name == 'Green Salamander' ? Texture.default28 : query.get_name == 'Tiger Salamander' ? Texture.default29 : query.get_name == 'Tennessee Cave Salamander' ? Texture.default30 : query.get_name == 'Seal Salamander' ? Texture.default31 : query.get_name == 'Eastern Newt' ? Texture.default32 : query.get_name == 'Red Salamander' ? Texture.default33 : query.get_name == 'Dusky Salamander' ? Texture.default34 : query.get_name == 'Giant Axolotl' ? Texture.default35 : Array.Xskins[variable.Xvar]"
+        ]   
+    }
+  }
+}

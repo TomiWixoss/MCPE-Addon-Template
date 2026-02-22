@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"geometry.cat_all_black41": {
+		"texturewidth": 128,
+		"textureheight": 128,
+		"visible_bounds_width": 4,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 1.5, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 7, 1]
+			},
+			{
+				"name": "body2",
+				"parent": "body",
+				"pivot": [0, 12, -10],
+				"rotation": [90, 0, 0],
+				"cubes": [
+					{"origin": [-2.5, -7, -17], "size": [5, 16, 5], "uv": [0, 89], "inflate": 0.25}
+				]
+			},
+			{
+				"name": "hotdog",
+				"parent": "body2",
+				"pivot": [0, -1, 0.25],
+				"cubes": [
+					{"origin": [-6.5, -2, -11.75], "size": [13, 6, 4], "uv": [1, 55]},
+					{"origin": [-8.5, -1, -10.75], "size": [17, 4, 4], "uv": [0, 65]},
+					{"origin": [-8.5, -1, -10.75], "size": [17, 4, 4], "uv": [0, 73], "inflate": 0.1},
+					{"origin": [-8.5, -1, -10.75], "size": [17, 4, 4], "uv": [0, 81], "inflate": 0.25}
+				]
+			}
+		]
+	}
+}

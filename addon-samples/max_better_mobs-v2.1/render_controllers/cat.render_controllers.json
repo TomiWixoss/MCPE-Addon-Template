@@ -1,0 +1,53 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cat": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.white",
+            "Texture.black",
+            "Texture.red",
+            "Texture.siamese",
+            "Texture.british",
+            "Texture.calico",
+            "Texture.persian",
+            "Texture.ragdoll",
+            "Texture.tabby",
+            "Texture.all_black",
+            "Texture.jellie"
+          ]
+        },
+        "geometries": {
+          "Array.geos": [
+            "Geometry.white",
+            "Geometry.black",
+            "Geometry.red",
+            "Geometry.siamese",
+            "Geometry.british",
+            "Geometry.calico",
+            "Geometry.persian",
+            "Geometry.ragdoll",
+            "Geometry.tabby",
+            "Geometry.all_black",
+            "Geometry.jellie"
+          ]
+        }
+      },
+      "geometry": "query.is_name_any('Nyan Cat') ? Geometry.all_black5 : query.is_name_any('Tiger') ? Geometry.all_black6 : query.is_name_any('Blackberry') ? Geometry.all_black7 : query.is_name_any('Baby') ? Geometry.all_black8 : query.is_name_any('Vester') ? Geometry.all_black9 : query.is_name_any('Luna') ? Geometry.all_black10 : query.is_name_any('Smokey') ? Geometry.all_black11 : query.is_name_any('Shifu') ? Geometry.all_black12 : query.is_name_any('Rosie') ? Geometry.all_black13 : query.is_name_any('Baboo') ? Geometry.all_black14 : query.is_name_any('Mouse') ? Geometry.all_black15 : query.is_name_any('Grumpy Cat') ? Geometry.all_black16 : query.is_name_any('Keyboard Cat!') ? Geometry.all_black17 : query.is_name_any('Tardar Sauce') ? Geometry.all_black16 : query.is_name_any('Bento') ? Geometry.all_black17 : query.is_name_any('Bingus') ? Geometry.all_black18 : query.is_name_any('Jinx') ? Geometry.all_black19 : query.is_name_any('Brown Mushroom') ? Geometry.all_black20 : query.is_name_any('Red Mushroom') ? Geometry.all_black21 : query.is_name_any('Crimson Mushroom') ? Geometry.all_black22 : query.is_name_any('Warped Mushroom') ? Geometry.all_black23 : query.is_name_any('Puss in Boots') ? Geometry.all_black24 : query.is_name_any('Kitty Softpaws') ? Geometry.all_black25 : query.is_name_any('Garfield') ? Geometry.all_black26 : query.is_name_any('Tom and Jerry') ? Geometry.all_black27 : query.is_name_any('Red Panda') ? Geometry.all_black28 : query.is_name_any('Brown Red Panda') ? Geometry.all_black29 : query.is_name_any('Ailurus Fulgens') ? Geometry.all_black28 : query.is_name_any('Ailurus Styani') ? Geometry.all_black29 : query.is_name_any('Raccoon') ? Geometry.all_black30 : query.is_name_any('Raccoon Cotton Candy Blue') ? Geometry.all_black31 : query.is_name_any('Raccoon Cotton Candy Green') ? Geometry.all_black32 : query.is_name_any('Raccoon Cotton Candy Pink') ? Geometry.all_black33 : query.is_name_any('Raccoon Marmalade') ? Geometry.all_black34 : query.is_name_any('Raccoon Strawberry Jam') ? Geometry.all_black35 : query.is_name_any('Raccoon Grape Jelly') ? Geometry.all_black36 : query.is_name_any('Ice Creamcoon Mint Choc Chip') ? Geometry.all_black37 : query.is_name_any('Ice Creamcoon Chocolate') ? Geometry.all_black38 : query.is_name_any('Ice Creamcoon Neapolitan') ? Geometry.all_black39 : query.is_name_any('RGB') ? Geometry.all_black42 : query.is_name_any('Gilded Gent') ? Geometry.all_black44 : query.is_name_any('Rocket Raccoon') ? Geometry.all_black45 : query.is_tamed ? Array.geos[query.variant] : Array.geos[query.variant]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.is_name_any('Nyan Cat') ? Texture.all_black5 : query.is_name_any('Tiger') ? Texture.all_black6 : query.is_name_any('Blackberry') ? Texture.all_black7 : query.is_name_any('Baby') ? Texture.all_black8 : query.is_name_any('Vester') ? Texture.all_black9 : query.is_name_any('Luna') ? Texture.all_black10 : query.is_name_any('Smokey') ? Texture.all_black11 : query.is_name_any('Shifu') ? Texture.all_black12 : query.is_name_any('Rosie') ? Texture.all_black13 : query.is_name_any('Baboo') ? Texture.all_black14 : query.is_name_any('Mouse') ? Texture.all_black15 : query.is_name_any('Grumpy Cat') ? Texture.all_black16 : query.is_name_any('Keyboard Cat!') ? Texture.all_black17 : query.is_name_any('Tardar Sauce') ? Texture.all_black16 : query.is_name_any('Bento') ? Texture.all_black17 : query.is_name_any('Bingus') ? Texture.all_black18 : query.is_name_any('Jinx') ? Texture.all_black19 : query.is_name_any('Brown Mushroom') ? Texture.all_black20 : query.is_name_any('Red Mushroom') ? Texture.all_black21 : query.is_name_any('Crimson Mushroom') ? Texture.all_black22 : query.is_name_any('Warped Mushroom') ? Texture.all_black23 : query.is_name_any('Puss in Boots') ? Texture.all_black24 : query.is_name_any('Kitty Softpaws') ? Texture.all_black25 : query.is_name_any('Garfield') ? Texture.all_black26 : query.is_name_any('Tom and Jerry') ? Texture.all_black27 : query.is_name_any('Red Panda') ? Texture.all_black28 : query.is_name_any('Brown Red Panda') ? Texture.all_black29 : query.is_name_any('Ailurus Fulgens') ? Texture.all_black28 : query.is_name_any('Ailurus Styani') ? Texture.all_black29 : query.is_name_any('Raccoon') ? Texture.all_black30 : query.is_name_any('Raccoon Cotton Candy Blue') ? Texture.all_black31 : query.is_name_any('Raccoon Cotton Candy Green') ? Texture.all_black32 : query.is_name_any('Raccoon Cotton Candy Pink') ? Texture.all_black33 : query.is_name_any('Raccoon Marmalade') ? Texture.all_black34 : query.is_name_any('Raccoon Strawberry Jam') ? Texture.all_black35 : query.is_name_any('Raccoon Grape Jelly') ? Texture.all_black36 : query.is_name_any('Ice Creamcoon Mint Choc Chip') ? Texture.all_black37 : query.is_name_any('Ice Creamcoon Chocolate') ? Texture.all_black38 : query.is_name_any('Ice Creamcoon Neapolitan') ? Texture.all_black39 : query.is_name_any('RGB') ? Texture.all_black42 : query.is_name_any('Gilded Gent') ? Texture.all_black44 : query.is_name_any('Rocket Raccoon') ? Texture.all_black45 : query.is_tamed ? Array.skins[query.variant] : Array.skins[query.variant]" ]
+    },
+    "controller.render.cat_collar": {
+      "geometry": "query.is_tamed ? Geometry.default2 : Geometry.none",
+      "materials": [ { "*": "Material.default2" } ],
+      "textures": [ "query.is_tamed ? Texture.collar : Texture.none" ]
+    },
+    "controller.render.cat_costume": {
+      "geometry": "query.is_name_any('Astro') ? Geometry.costume2 : query.is_name_any('Bumble') ? Geometry.costume3 : query.is_name_any('Yarn Ball') ? Geometry.costume4 : query.is_name_any('Burger') ? Geometry.all_black40 : query.is_name_any('Hotdog') ? Geometry.all_black41 : query.is_name_any('Balloons') ? Geometry.all_black43 : Geometry.none",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.is_name_any('Astro') ? Texture.costume2 : query.is_name_any('Bumble') ? Texture.costume3 : query.is_name_any('Yarn Ball') ? Texture.costume4 : query.is_name_any('Burger') ? Texture.all_black40 : query.is_name_any('Hotdog') ? Texture.all_black41 : query.is_name_any('Balloons') ? Texture.all_black43 : Texture.none" ]
+    }
+  }
+}
+

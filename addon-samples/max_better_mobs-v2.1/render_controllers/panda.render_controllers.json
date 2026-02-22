@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.panda": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.default",
+            "Texture.lazy",
+            "Texture.worried",
+            "Texture.playful",
+            "Texture.brown",
+            "Texture.weak",
+            "Texture.aggressive"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.is_name_any('Astro') ? Texture.default2 : query.is_name_any('El Panda') ? Texture.default3 : query.is_name_any('Chef') ? Texture.default4 : query.is_name_any('Bamboo') ? Texture.default5 : query.is_name_any('Po') ? Texture.default6 : query.is_name_any('Trash Panda') ? Texture.default7 : query.is_name_any('Darth Vader') ? Texture.default8 : query.is_name_any('Amogus') ? Texture.default9 : query.is_name_any('Amogi') ? Texture.default10 : query.is_name_any('Cake') ? Texture.default11 : query.is_name_any('Pile o Pandas') ? Texture.default12 : query.is_name_any('Recruit') ? Texture.default13 : query.is_name_any('P4NDV-T4NK') ? Texture.default14 : query.is_name_any('P4NDV-TURR3T') ? Texture.default15 : query.is_name_any('Fred') ? Texture.default16 : query.is_name_any('Red Panda') ? Texture.default17 : query.is_name_any('Orange Panda') ? Texture.default18 : query.is_name_any('Yellow Panda') ? Texture.default19 : query.is_name_any('Lime Panda') ? Texture.default20 : query.is_name_any('Green Panda') ? Texture.default21 : query.is_name_any('Cyan Panda') ? Texture.default22 : query.is_name_any('Light Blue Panda') ? Texture.default23 : query.is_name_any('Blue Panda') ? Texture.default24 : query.is_name_any('Purple Panda') ? Texture.default25 : query.is_name_any('Magenta Panda') ? Texture.default26 : query.is_name_any('Pink Panda') ? Texture.default27 : query.is_name_any('Brown Panda') ? Texture.default28 : query.is_name_any('Black Panda') ? Texture.default29 : query.is_name_any('Grey Panda', 'Gray Panda') ? Texture.default30 : query.is_name_any('Light Grey Panda', 'Light Gray Panda') ? Texture.default31 : query.is_name_any('White Panda') ? Texture.default32 : query.is_name_any('Ailurus') ? Texture.default33 : query.is_name_any('Panda 2') ? Texture.default34 : query.is_name_any('Astro 2') ? Texture.default35 : query.is_name_any('El Panda 2') ? Texture.default36 : query.is_name_any('Chef 2') ? Texture.default37 : query.is_name_any('Bamboo 2') ? Texture.default38 : query.is_name_any('Po 2') ? Texture.default39 : query.is_name_any('Amogus 2') ? Texture.default40 : query.is_name_any('Amogi 2') ? Texture.default41 : query.is_name_any('Cake 2') ? Texture.default42 : query.is_name_any('Pile o Pandas 2') ? Texture.default43 : query.is_name_any('Recruit 2') ? Texture.default44 : query.is_name_any('Fred 2') ? Texture.default45 : query.is_name_any('Panda 3') ? Texture.default46 : query.is_name_any('Astro 3') ? Texture.default47 : query.is_name_any('El Panda 3') ? Texture.default48 : query.is_name_any('Chef 3') ? Texture.default49 : query.is_name_any('Bamboo 3') ? Texture.default50 : query.is_name_any('Po 3') ? Texture.default51 : query.is_name_any('Amogus 3') ? Texture.default52 : query.is_name_any('Amogi 3') ? Texture.default53 : query.is_name_any('Cake 3') ? Texture.default54 : query.is_name_any('Pile o Pandas 3') ? Texture.default55 : query.is_name_any('Recruit 3') ? Texture.default56 : query.is_name_any('Fred 3') ? Texture.default57 : query.is_name_any('Panda 4') ? Texture.default58 : query.is_name_any('Astro 4') ? Texture.default59 : query.is_name_any('El Panda 4') ? Texture.default60 : query.is_name_any('Chef 4') ? Texture.default61 : query.is_name_any('Bamboo 4') ? Texture.default62 : query.is_name_any('Po 4') ? Texture.default63 : query.is_name_any('Amogus 4') ? Texture.default64 : query.is_name_any('Amogi 4') ? Texture.default65 : query.is_name_any('Cake 4') ? Texture.default66 : query.is_name_any('Pile o Pandas 4') ? Texture.default67 : query.is_name_any('Recruit 4') ? Texture.default68 : query.is_name_any('Fred 4') ? Texture.default69 : query.is_name_any('Pink Fred') ? Texture.default70 : query.is_name_any('Pink Pile o Pandas') ? Texture.default71 : query.is_name_any('Pink Amogi') ? Texture.default72 : query.is_name_any('Trash Pile') ? Texture.default73 : query.is_name_any('Careless') ? Texture.default74 : query.is_name_any('Red Panda Stack') ? Texture.default75 : query.is_name_any('Toxin') ? Texture.default76 : Array.skins[query.variant]" ]
+    }
+  }
+}

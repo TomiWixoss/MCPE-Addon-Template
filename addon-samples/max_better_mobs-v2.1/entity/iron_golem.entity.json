@@ -1,0 +1,70 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:iron_golem",
+      "materials": {
+        "default": "iron_golem"
+      },
+      "textures": {
+        "default": "textures/entity/iron_golem/iron_golem",
+        "default2": "textures/entity/iron_golem/iron_golem2",
+        "default3": "textures/entity/iron_golem/iron_golem3",
+        "default4": "textures/entity/iron_golem/iron_golem4",
+        "default5": "textures/entity/iron_golem/iron_golem5",
+        "default6": "textures/entity/iron_golem/iron_golem6",
+        "default7": "textures/entity/iron_golem/iron_golem7",
+        "default8": "textures/entity/iron_golem/iron_golem8",
+        "default9": "textures/entity/iron_golem/iron_golem9",
+        "default10": "textures/entity/iron_golem/iron_golem10",
+        "default11": "textures/entity/iron_golem/iron_golem11",
+        "default12": "textures/entity/iron_golem/iron_golem12",
+        "default13": "textures/entity/iron_golem/iron_golem13",
+        "default14": "textures/entity/iron_golem/iron_golem14",
+        "default15": "textures/entity/iron_golem/iron_golem15",
+        "default16": "textures/entity/iron_golem/iron_golem16",
+        "default17": "textures/entity/iron_golem/iron_golem17",
+        "default18": "textures/entity/iron_golem/iron_golem18",
+        "default19": "textures/entity/iron_golem/iron_golem19",
+        "default20": "textures/entity/iron_golem/iron_golem20",
+        "default21": "textures/entity/iron_golem/iron_golem21",
+        "default22": "textures/entity/iron_golem/iron_golem22",
+        "default23": "textures/entity/iron_golem/iron_golem23",
+        "default24": "textures/entity/iron_golem/iron_golem24",
+        "default25": "textures/entity/iron_golem/iron_golem25",
+        "default26": "textures/entity/iron_golem/iron_golem26",
+        "default27": "textures/entity/iron_golem/iron_golem27"
+      },
+      "geometry": {
+        "default": "geometry.irongolem"
+      },
+      "animations": {
+        "walk": "animation.iron_golem.walk",
+        "move": "animation.iron_golem.move",
+        "walk_to_target": "animation.iron_golem.walk_to_target",
+        "move_to_target": "animation.iron_golem.move_to_target",
+        "attack": "animation.iron_golem.attack",
+        "flower": "animation.iron_golem.flower",
+        "look_at_target": "animation.common.look_at_target",
+        "move_controller": "controller.animation.iron_golem.move",
+        "arm_controller": "controller.animation.iron_golem.arm_movement"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.modified_tcos0 = Math.clamp(((Math.cos(query.modified_distance_moved * 13.5) * Math.min(query.modified_move_speed, 0.6) / variable.gliding_speed_value) * 25.0), -12.5, 12.5);"
+        ],
+        "animate": [
+          "look_at_target",
+          "move_controller",
+          "arm_controller"
+        ],
+        "initialize": [
+          "variable.Xvar = Math.random(0,999);"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.iron_golem"
+      ]
+    }
+  }
+}

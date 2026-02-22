@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "ba:dragon_guard_sword",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/dragon_guard_sword"
+      },
+      "geometry": {
+        "default": "geometry.ba.dragon_guard_sword"
+      },
+      "animations": {
+        "idle": "animation.idle",
+        "walk": "animation.walk",
+        "attack": "animation.attack"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "walk": "query.modified_move_speed"
+          },
+          {
+            "idle": "!query.modified_move_speed"
+          }
+        ]
+      },
+      "render_controllers": ["controller.render.dragon_guard_sword"],
+      "spawn_egg": {
+        "base_color": "#8B0000",
+        "overlay_color": "#FFD700"
+      }
+    }
+  }
+}
