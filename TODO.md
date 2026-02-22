@@ -108,15 +108,16 @@
 - [ ] **Archaeology** - Loot từ đào khảo cổ
 
 ### 6. World Generation
-- [ ] **Custom Biome** - Biome hoàn toàn mới
+- [ ] **Custom Biome** - Biome hoàn toàn mới (EXPERIMENTAL)
 - [ ] **Ore Generation** - Quặng custom
 - [ ] **Tree Features** - Cây custom
 - [ ] **Structure** - Công trình (.mcstructure)
 - [ ] **Jigsaw Structure** - Cấu trúc tự động kết nối
-- [ ] **Dimension** - Chiều không gian mới
 - [ ] **Cave Features** - Hang động custom
 - [ ] **Lake Features** - Hồ custom
-- [ ] **Vegetation** - Th植vật custom
+- [ ] **Vegetation** - Thực vật custom
+
+**LƯU Ý**: Bedrock KHÔNG hỗ trợ custom dimension mới. Chỉ có 3 dimensions: Overworld, Nether, The End
 
 ### 7. Spawn Rules
 - [ ] **Mob Spawning** - Quy tắc spawn mob
@@ -311,11 +312,12 @@
 5. [ ] Tạo Pet System
 
 ### Low Priority
-1. [ ] Tạo Custom Dimension
-2. [ ] Tạo Advanced AI
-3. [ ] Tạo Physics System
-4. [ ] Tạo Complex Minigames
-5. [ ] Tạo Guild System
+1. [ ] Tạo Advanced AI
+2. [ ] Tạo Physics System
+3. [ ] Tạo Complex Minigames
+4. [ ] Tạo Guild System
+
+**LƯU Ý**: Custom Dimension KHÔNG khả thi trong Bedrock addon
 
 ---
 
