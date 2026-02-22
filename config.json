@@ -11,7 +11,7 @@
 		"filterDefinitions": {
 			"typescript_build": {
 				"runWith": "shell",
-				"command": "npm run build"
+				"command": "powershell -ExecutionPolicy Bypass -File ../../build-scripts.ps1"
 			}
 		},
 		"formatVersion": "1.7.0",
