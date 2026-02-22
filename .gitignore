@@ -1,2 +1,7 @@
-/build
-/.regolith
+node_modules/
+packs/BP/scripts/*.js
+packs/BP/scripts/*.js.map
+.regolith/
+*.mcworld
+*.mcpack
+.DS_Store

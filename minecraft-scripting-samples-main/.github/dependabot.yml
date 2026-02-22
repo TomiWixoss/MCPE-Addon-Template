@@ -1,0 +1,89 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/build-challenge"
+    schedule:
+      interval: "monthly"
+    groups:
+      external:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+
+  - package-ecosystem: "npm"
+    directory: "/custom-components"
+    schedule:
+      interval: "monthly"
+    groups:
+      external:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+
+  - package-ecosystem: "npm"
+    directory: "/editor-basics"
+    schedule:
+      interval: "monthly"
+    groups:
+      external:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+
+  - package-ecosystem: "npm"
+    directory: "/editor-script-box"
+    schedule:
+      interval: "monthly"
+    groups:
+      external:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+
+  - package-ecosystem: "npm"
+    directory: "/howto-gallery"
+    schedule:
+      interval: "monthly"
+    groups:
+      external:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+
+  - package-ecosystem: "npm"
+    directory: "/script-box"
+    schedule:
+      interval: "monthly"
+    groups:
+      external:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+
+  - package-ecosystem: "npm"
+    directory: "/ts-starter"
+    schedule:
+      interval: "monthly"
+    groups:
+      external:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+
+  - package-ecosystem: "npm"
+    directory: "/ts-starter-complete-cotta"
+    schedule:
+      interval: "monthly"
+    groups:
+      external:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
