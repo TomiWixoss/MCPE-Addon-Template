@@ -11,7 +11,3 @@ item.custom:food.name=Custom Food
 
 ## Blocks
 tile.custom:block.name=Custom Block
-
-## Entities
-entity.ba:dragon_guard_sword.name=Dragon Guard Sword
-item.spawn_egg.entity.ba:dragon_guard_sword.name=Spawn Dragon Guard Sword
