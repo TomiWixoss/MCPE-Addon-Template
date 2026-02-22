@@ -8,7 +8,12 @@
 	},
 	"regolith": {
 		"dataPath": "./packs/data",
-		"filterDefinitions": {},
+		"filterDefinitions": {
+			"typescript_build": {
+				"runWith": "shell",
+				"command": "npm run build"
+			}
+		},
 		"formatVersion": "1.7.0",
 		"profiles": {
 			"default": {
@@ -17,7 +22,11 @@
 					"readOnly": false,
 					"target": "development"
 				},
-				"filters": []
+				"filters": [
+					{
+						"filter": "typescript_build"
+					}
+				]
 			}
 		}
 	}
