@@ -1,2 +1,9 @@
 pack.name=My First Addon RP
 pack.description=Resource Pack for my first addon
+
+
+## Custom Items
+item.custom:item.name=Custom Item
+item.custom:tool.name=Custom Tool
+item.custom:weapon.name=Custom Weapon
+item.custom:food.name=Custom Food

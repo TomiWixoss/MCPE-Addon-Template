@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "custom:food",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "custom_item"
+			},
+			"minecraft:display_name": {
+				"value": "item.custom:food.name"
+			},
+			"minecraft:use_duration": 32,
+			"minecraft:use_animation": "eat",
+			"minecraft:food": {
+				"nutrition": 6,
+				"saturation_modifier": 0.8,
+				"can_always_eat": false,
+				"effects": [
+					{
+						"name": "regeneration",
+						"chance": 1.0,
+						"duration": 5,
+						"amplifier": 0
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "My First Addon",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"custom_item": {
+			"textures": "textures/items/custom_item"
+		}
+	}
+}

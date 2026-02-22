@@ -1,0 +1,11 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "custom:item_smelting"
+		},
+		"tags": ["furnace", "blast_furnace"],
+		"input": "minecraft:iron_ore",
+		"output": "custom:item"
+	}
+}

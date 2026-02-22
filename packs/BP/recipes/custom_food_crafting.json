@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "custom:food_crafting"
+		},
+		"tags": ["crafting_table"],
+		"ingredients": [
+			{
+				"item": "custom:item"
+			},
+			{
+				"item": "minecraft:bread"
+			},
+			{
+				"item": "minecraft:cooked_beef"
+			}
+		],
+		"result": {
+			"item": "custom:food",
+			"count": 2
+		}
+	}
+}

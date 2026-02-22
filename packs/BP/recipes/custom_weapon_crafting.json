@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "custom:weapon_crafting"
+		},
+		"tags": ["crafting_table"],
+		"pattern": [
+			" X ",
+			" X ",
+			" I "
+		],
+		"key": {
+			"X": {
+				"item": "custom:item"
+			},
+			"I": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "custom:weapon",
+			"count": 1
+		}
+	}
+}
